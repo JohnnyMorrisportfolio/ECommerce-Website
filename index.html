@@ -19,7 +19,7 @@
           <ul class="nav_links">
             <li><a href="#" class="nav__link">Home</a></li>
             <li><a href="#" class="nav__link">Contact</a></li>
-            <li><a href="#" class="nav__link nav__link--primary">Books</a></li>
+            <li><a href="#features" class="nav__link nav__link--primary">Books</a></li>
           </ul>
         </div>
       </nav>
@@ -30,8 +30,10 @@
             <h2>
               Find your dream book with <span class="purple">Library</span>
             </h2>
+            <a href="#features">
             <button class="btn">Browse Books</button>
           </div>
+            </a>
           <figure class="header__img--wrapper">
             <img src="./assets/assets/Undraw_Books.svg" />
           </figure>
@@ -340,18 +342,35 @@
           </div>
         </div>
       </section>
+      <section id="explore">
+        <div class="container">
+          <div class="row row__column">
+              <h2>Explore more <span class="purple">books</span></h2>
+              <a href="#features">
+              <button class="explore__btn" class="explore__btn--container">Browse Books</button>
+            </a>
+            </div>
+          </div>
+
+      </section>
     </main>
-    
-        <div class="footer__row">
-            <img src=".\assets\assets\Library.svg" class="footer__icon">
-        </div>
-        <h3 class="footer__list"></h3>
-        <ul class="footer__links">
-            <li class="footer__link" target="#home">Home</li>
-            <li class="footer__link" target="#about">About</li>
-            <li class="footer__link" target="#Books">Books</li>
-            <li class="footer__link" target="mailto:johnnymorrisportfolio@gmail.com">Contact</li>
-        </ul>
-        <div class="footer__copyright">Copyright Ⓒ johnnymorrisportfolio 2022 </div>
+      <footer class="footer">
+            <div class="container"> 
+                  <div class="footer__row">
+                    <a href="">
+                      <figure class="footer__logo">
+                      <img src=".\assets\assets\Library.svg" class="footer__logo--img">
+                    </figure>
+                    </a>
+                  </div>
+                <div class="footer__list">
+                      <a href="#home" class="footer__link">Home</a>
+                      <a href="#about" class="footer__link no-cursor">About</a>
+                      <a href="#books" class="footer__link">Books</a>
+                      <a href="" class="footer__link no-cursor">Contact</a>
+                  </div>
+            </div>
+            <div class="footer__copyright">Copyright Ⓒ johnnymorrisportfolio 2022 </div>
+      </footer>
   </body>
 </html>
